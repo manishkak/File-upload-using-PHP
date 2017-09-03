@@ -13,7 +13,7 @@ if(isset($_POST['submitfile']))
 			{
 				$size = $_FILES['file']['size'];
 				$calc = ($size/1000);
-				echo 'Sorry, the file '.$_FILES['file']['name'].' is too large! ('.$calc.'MB)<br><br>';
+				echo 'Sorry, the file '.$_FILES['file']['name'].' is too large! ('.$calc.'KB)<br><br>';
 				break;
 			}
 		
